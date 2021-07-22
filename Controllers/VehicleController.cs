@@ -30,6 +30,9 @@ namespace VehicleApi.Controllers
            return _vehicleRepository.GetVehicles();
         }
 
+    
+        //ignore method GetValueById 
+        
         // GET api/<VehicleController>/5
          // [HttpGet("{id}")]
          //[Route("[action]")]
