@@ -20,6 +20,8 @@ namespace VehicleApi.Models
         public virtual Makes Makes { get; set; }
 
         public int modelId { get; set; }
+        
+        //added comment to check git fetch
 
     }
 }
